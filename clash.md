@@ -112,7 +112,8 @@ unset  http_proxy  https_proxy  all_proxy
 
 - 点击设置，检查***允许来自局域网的连接***是否开启
 
-![image-20221226005301963](C:\Users\jaynone\AppData\Roaming\Typora\typora-user-images\image-20221226005301963.png)
+![image](https://user-images.githubusercontent.com/73376764/209537748-a4a4a80e-f2e4-4111-94b0-6ce17c5e7f44.png)
+
 
 - 测试是否成功连接
 
@@ -120,8 +121,7 @@ unset  http_proxy  https_proxy  all_proxy
 curl -I https://www.google.com/
 ```
 
-![image-20221226003715962](C:\Users\jaynone\AppData\Roaming\Typora\typora-user-images\image-20221226003715962.png)
-
+![image](https://user-images.githubusercontent.com/73376764/209537768-6e3e606f-129c-44ab-b974-1d5083214fab.png)
 
 
 ## 第三章 设置clash开机自启动
