@@ -16,7 +16,7 @@ vim /etc/ssh/sshd_config
 sed -i '/PermitRootLogin /c PermitRootLogin yes' /etc/ssh/sshd_config
 
 3.安装依赖包
-apt-get update && apt-get -y install net-tools lrzsz net-tools vim wget 
+apt-get update && apt-get -y install net-tools lrzsz vim wget 
 
 4.新建文件夹
 mkdir clash && cd clash
