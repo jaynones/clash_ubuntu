@@ -1,6 +1,5 @@
 # clash-ubuntu20.04
 
-![image-20221226165607776](C:\Users\jaynone\AppData\Roaming\Typora\typora-user-images\image-20221226165607776.png)
 
 ## 第一章 安装clash
 
@@ -87,7 +86,8 @@ INFO[0000] Start initial compatible provider Others
 http://clash.razord.top/#/proxies
 ```
 
-![image-20221226004959251](C:\Users\jaynone\AppData\Roaming\Typora\typora-user-images\image-20221226004959251.png)
+![image](https://user-images.githubusercontent.com/73376764/209537529-fe2f8d23-d0bf-460e-9023-e3c881e3d0af.png)
+
 
 - 如果访问失败，打开设置->网络->网络代理，切换为手动，设置下图参数后
 
@@ -97,9 +97,7 @@ apt-get -y install tasksel
 tasksel install ubuntu-desktop
 ```
 
-
-
-![image-20221226005149074](C:\Users\jaynone\AppData\Roaming\Typora\typora-user-images\image-20221226005149074.png)
+![image](https://user-images.githubusercontent.com/73376764/209537575-b0ea0539-be6b-45ce-9400-2128b7cf809a.png)
 
 ```sh
 7.如果不是安装的GUI，没有打开代理，则需要手动开启代理
