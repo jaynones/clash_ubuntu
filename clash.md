@@ -32,7 +32,7 @@ cp clash /usr/local/bin/clash && chmod +x /usr/local/bin/clash && ls -l /usr/loc
 
 8.验证是否成功
 root@clash:~/clash# clash -v
-Clash v1.12.0 linux amd64 with go1.19.3 Fri Nov 25 12:43:25 UTC 2022
+Clash v1.11.8 linux amd64 with go1.19.3 Fri Nov 25 12:43:25 UTC 2022
 
 9.为 clash 添加绑定低位端口的权限，这样运行clash的时候无需root权限
 sudo setcap cap_net_bind_service=+ep /usr/local/bin/clash
